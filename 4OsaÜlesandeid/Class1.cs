@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.IO; // Добавлено, чтобы работали StreamWriter, StreamReader и File
+using System.IO; 
 
 namespace _4OsaÜlesandeid
 {
@@ -12,7 +12,7 @@ namespace _4OsaÜlesandeid
             Console.Write("Sisesta oma lemmik Itaalia toit: ");
             string toit = Console.ReadLine();
 
-            // Используем Path.Combine для надежности
+            
             string retseptidFail = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Retseptid.txt");
 
             try

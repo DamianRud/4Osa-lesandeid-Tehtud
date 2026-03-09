@@ -43,7 +43,7 @@ namespace _4OsaÜlesandeid
                 }
                 else
                 {
-                    Console.WriteLine("Faili Retseptid.txt еще не существует.");
+                    Console.WriteLine("Faili Retseptid.txt ei ole olemas.");
                 }
             }
             catch (Exception ex)
